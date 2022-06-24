@@ -23,4 +23,6 @@ app.get('/hobbies', (req, res) => {
     res.render('hobbies');
 })
 
+app.listen(port);
+console.log(`Server is listening on port ${port}`);
 
