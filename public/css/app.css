@@ -1,0 +1,102 @@
+#navBar{
+    background-color: #555B6E;
+    /* width: auto; */
+}
+#items{
+    color: #699491;
+}
+#other {
+    font-family: 'Montserrat', sans-serif;
+    color: #699491;
+    font-size: .9rem;
+}
+#pageTitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    color: #699491;
+}
+#italic {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #699491;
+    font-size: .9rem;
+}
+#company {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #699491;
+    font-size: 1.4rem;
+}
+#subHeading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #699491;
+}
+/* #special {
+    font-family: 'Montserrat', sans-serif;
+    color: #699491;
+    background-color: #FAF9F9;
+} */
+hr{
+    color: #363A46;
+    height: 2rem;
+    
+}
+#spacer{
+    color: white;
+    height: 1rem;
+}
+ul{
+    color: #699491;
+    list-style-type: disc;
+}
+#contactInfo{
+    background-color: #555B6E;
+}
+/* .btn{
+    background-color: #BEE3DB;
+} */
+.buttonIcon{
+    width: 100px;
+    height: 100px;
+}
+.noUnderline:link{
+    text-decoration: none;
+    height: 100px;
+    width:100px;
+}
+#line{
+    size: 200%;
+}
+#sectionHead {
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    color: #699491;
+}
+#footHead{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#bod {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: bolder;
+}
+#linked:hover{
+    color: #0072b1;
+}
+#insta:hover{
+    color: #fb3958;
+}
+#fb:hover{
+    color: #4267B2;
+}
+#twit:hover{
+    color: #00acee;
+}
+#github:hover{
+    color: #171515;
+}
