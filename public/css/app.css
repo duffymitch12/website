@@ -29,15 +29,10 @@
     color: #699491;
     font-size: 1.4rem;
 }
-#subHeading{
+/* #subHeading{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #699491;
-}
-/* #special {
-    font-family: 'Montserrat', sans-serif;
-    color: #699491;
-    background-color: #FAF9F9;
 } */
 hr{
     color: #363A46;
@@ -55,9 +50,7 @@ ul{
 #contactInfo{
     background-color: #555B6E;
 }
-/* .btn{
-    background-color: #BEE3DB;
-} */
+
 .buttonIcon{
     width: 100px;
     height: 100px;
