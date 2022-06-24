@@ -3,7 +3,7 @@ const { appendFileSync } = require('fs');
 const app = express();
 const path = require('path');
 
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'public')))
 
@@ -23,9 +23,9 @@ app.get('/fun-stuff', (req, res) => {
     res.render('fun-stuff');
 })
 
-app.listen(port);
-console.log(`Server is listening on port ${port}`);
-// app.listen(3000, () => {
-//     console.log('LISTENING ON PORT: 3000')
-// })
+// app.listen(port);
+// console.log(`Server is listening on port ${port}`);
+app.listen(3000, () => {
+    console.log('LISTENING ON PORT: 3000')
+})
 
