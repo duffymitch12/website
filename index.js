@@ -19,10 +19,13 @@ app.get('/experience', (req, res) => {
     res.render('experience');
 })
 
-app.get('/hobbies', (req, res) => {
-    res.render('hobbies');
+app.get('/fun-stuff', (req, res) => {
+    res.render('fun-stuff');
 })
 
 app.listen(port);
 console.log(`Server is listening on port ${port}`);
+// app.listen(3000, () => {
+//     console.log('LISTENING ON PORT: 3000')
+// })
 
