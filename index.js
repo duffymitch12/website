@@ -19,8 +19,8 @@ app.get('/experience', (req, res) => {
     res.render('experience');
 })
 
-app.get('/fun-stuff', (req, res) => {
-    res.render('fun-stuff');
+app.get('/projects', (req, res) => {
+    res.render('projects');
 })
 
 app.listen(port);
